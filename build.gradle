@@ -34,5 +34,6 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-web-services')
 	compileOnly('org.projectlombok:lombok')
+	compile("wsdl4j:wsdl4j:1.6.1")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
